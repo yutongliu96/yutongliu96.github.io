@@ -46,7 +46,7 @@
     "articleSection" : "posts",
     "name" : "Joke Generator",
     "headline" : "Joke Generator",
-    "description" : "The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.\nBasic idea is inspired by the neural machine translation, which can translate a sequence to another with different length. The topic",
+    "description" : "The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.\nBasic idea is inspired by the neural machine translation, which can translate a sequence to another with different length.\nMy model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence.",
     "inLanguage" : "zh-cn",
     "author" : "Yutong LIU",
     "creator" : "Yutong LIU",
@@ -57,7 +57,7 @@
     "datePublished": "2019-12-11 16:02:36 -0500 EST",
     "dateModified" : "2019-12-11 16:02:36 -0500 EST",
     "url" : "https:\/\/yutongliu96.github.io\/2019\/joke_generator\/",
-    "wordCount" : "48",
+    "wordCount" : "387",
     "keywords" : [  "Yutong LIU\x27s Blog"]
 }
 </script>
@@ -134,6 +134,8 @@
         
 
         
+            
+        
 
         
         
@@ -147,7 +149,26 @@
           
 
           <p>The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.</p>
-<p>Basic idea is inspired by the neural machine translation, which can translate a sequence to another with different length. The topic</p>
+<p>Basic idea is inspired by the neural machine translation, which can translate a sequence to another with different length.</p>
+<p><img src="/images/NLP/joke_generator/translation.png" alt="avatar"></p>
+<p>My model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence. The attention mechanism is introduced to help the machine understand which topic is more important in the generated sentence.</p>
+<p><img src="/images/NLP/joke_generator/model.jpg" alt="avatar"></p>
+<p>For training, topic words are selected from <a href="https://github.com/brendansudol/conan-jokes-data/tree/master/output">Conan talkshow</a> by POS tag predictor from nltk. We selected all the nouns from the sentence, which is better than adjective or other type words during the training. Following results are selected from tons of meaningless generation.</p>
+<pre><code>|  Topic words   | Joke  |
+|  ----  | ----  |
+| china restaurant  | china has opened the first restaurant to pay for hot dog |
+| dog tree  | it s been reported that dog are now trying to build a forests in minutes |
+| hilton overweight | paris hilton has revealed that one is bad when pregnant . |
+|  dish mints  | if you re on the dish you have to be the cabbage  |
+|  picture jersey sociopaths  | a picture of the united kingdom of you be in new jersey .
+  |
+|  marriage surgeon  | marriage s like you take a surgery in the wrong . just take it !   |
+|  italian conference  | the italian press conference , you never go through .   |
+|  cheek bieber time  | right now , justin bieber s not worth of your time  |
+|  slips republican  | it s been reported that , the republican controlled the new jersey .   |
+|  governor envilingus  | the governor of the white house is me  |
+|  obama chicken  | it s been reported that michelle obama has not nominated for three out of americans think of chicken .  |
+</code></pre><p>A simplified version is available on my <a href="https://github.com/yutongliu96/simplified_joke_generator">github</a>, the rate of successful generation is about 10%. Considering it is different for human to make a joke by random selected topics, it is hard to evaluate it. If you have opinions or feel interested, please contact with me.</p>
 
     </div>
 
@@ -226,8 +247,9 @@
 
 
     
-    
-    <script src="/js/vendor_no_gallery.min.js" async=""></script>
+     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
+      
+     <script src="/js/vendor_gallery.min.js" async="" ></script>
     
   
 
