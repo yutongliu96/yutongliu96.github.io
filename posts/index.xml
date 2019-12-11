@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Yutong LIU&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 10 Dec 2019 20:51:10 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 16:02:36 -0500</lastBuildDate>
     
 	<atom:link href="https://yutongliu96.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Joke Generator</title>
+      <link>https://yutongliu96.github.io/2019/joke_generator/</link>
+      <pubDate>Wed, 11 Dec 2019 16:02:36 -0500</pubDate>
+      
+      <guid>https://yutongliu96.github.io/2019/joke_generator/</guid>
+      <description>The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.
+Basic idea is inspired by the neural machine translation, which can translate a sequence to another with different length. The topic</description>
+    </item>
     
     <item>
       <title>End_of_term</title>
