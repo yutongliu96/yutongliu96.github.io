@@ -57,7 +57,7 @@
     "datePublished": "2019-12-11 16:02:36 -0500 EST",
     "dateModified" : "2019-12-11 16:02:36 -0500 EST",
     "url" : "https:\/\/yutongliu96.github.io\/2019\/joke_generator\/",
-    "wordCount" : "387",
+    "wordCount" : "346",
     "keywords" : [  "Yutong LIU\x27s Blog"]
 }
 </script>
@@ -154,21 +154,61 @@
 <p>My model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence. The attention mechanism is introduced to help the machine understand which topic is more important in the generated sentence.</p>
 <p><img src="/images/NLP/joke_generator/model.jpg" alt="avatar"></p>
 <p>For training, topic words are selected from <a href="https://github.com/brendansudol/conan-jokes-data/tree/master/output">Conan talkshow</a> by POS tag predictor from nltk. We selected all the nouns from the sentence, which is better than adjective or other type words during the training. Following results are selected from tons of meaningless generation.</p>
-<pre><code>|  Topic words   | Joke  |
-|  ----  | ----  |
-| china restaurant  | china has opened the first restaurant to pay for hot dog |
-| dog tree  | it s been reported that dog are now trying to build a forests in minutes |
-| hilton overweight | paris hilton has revealed that one is bad when pregnant . |
-|  dish mints  | if you re on the dish you have to be the cabbage  |
-|  picture jersey sociopaths  | a picture of the united kingdom of you be in new jersey .
-  |
-|  marriage surgeon  | marriage s like you take a surgery in the wrong . just take it !   |
-|  italian conference  | the italian press conference , you never go through .   |
-|  cheek bieber time  | right now , justin bieber s not worth of your time  |
-|  slips republican  | it s been reported that , the republican controlled the new jersey .   |
-|  governor envilingus  | the governor of the white house is me  |
-|  obama chicken  | it s been reported that michelle obama has not nominated for three out of americans think of chicken .  |
-</code></pre><p>A simplified version is available on my <a href="https://github.com/yutongliu96/simplified_joke_generator">github</a>, the rate of successful generation is about 10%. Considering it is different for human to make a joke by random selected topics, it is hard to evaluate it. If you have opinions or feel interested, please contact with me.</p>
+<table>
+<thead>
+<tr>
+<th align="center">Topic words</th>
+<th align="center">Joke</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">china restaurant</td>
+<td align="center">china has opened the first restaurant to pay for hot dog</td>
+</tr>
+<tr>
+<td align="center">dog tree</td>
+<td align="center">it s been reported that dog are now trying to build a forests in minutes</td>
+</tr>
+<tr>
+<td align="center">hilton overweight</td>
+<td align="center">paris hilton has revealed that one is bad when pregnant .</td>
+</tr>
+<tr>
+<td align="center">dish mints</td>
+<td align="center">if you re on the dish you have to be the cabbage</td>
+</tr>
+<tr>
+<td align="center">picture jersey sociopaths</td>
+<td align="center">a picture of the united kingdom of you be in new jersey .</td>
+</tr>
+<tr>
+<td align="center">marriage surgeon</td>
+<td align="center">marriage s like you take a surgery in the wrong . just take it !</td>
+</tr>
+<tr>
+<td align="center">italian conference</td>
+<td align="center">the italian press conference , you never go through .</td>
+</tr>
+<tr>
+<td align="center">cheek bieber time</td>
+<td align="center">right now , justin bieber s not worth of your time</td>
+</tr>
+<tr>
+<td align="center">slips republican</td>
+<td align="center">it s been reported that , the republican controlled the new jersey .</td>
+</tr>
+<tr>
+<td align="center">governor envilingus</td>
+<td align="center">the governor of the white house is me</td>
+</tr>
+<tr>
+<td align="center">obama chicken</td>
+<td align="center">it s been reported that michelle obama has not nominated for three out of americans think of chicken .</td>
+</tr>
+</tbody>
+</table>
+<p>A simplified version is available on my <a href="https://github.com/yutongliu96/simplified_joke_generator">github</a>, the rate of successful generation is about 10%. Considering it is different for human to make a joke by random selected topics, it is hard to evaluate it. If you have opinions or feel interested, please contact with me.</p>
 
     </div>
 
