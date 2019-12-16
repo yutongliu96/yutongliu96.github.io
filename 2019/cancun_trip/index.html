@@ -9,9 +9,9 @@
   
   
   
-  <link rel="prev" href="https://yutongliu96.github.io/2019/end_of_term/" />
-  <link rel="next" href="https://yutongliu96.github.io/2019/cancun_trip/" />
-  <link rel="canonical" href="https://yutongliu96.github.io/2019/joke_generator/" />
+  <link rel="prev" href="https://yutongliu96.github.io/2019/joke_generator/" />
+  
+  <link rel="canonical" href="https://yutongliu96.github.io/2019/cancun_trip/" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -22,10 +22,10 @@
   <title>
        
        
-           Joke Generator | Yutong LIU&#39;s Blog
+           Cancun Trip | Yutong LIU&#39;s Blog
        
   </title>
-  <meta name="title" content="Joke Generator | Yutong LIU&#39;s Blog">
+  <meta name="title" content="Cancun Trip | Yutong LIU&#39;s Blog">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,9 +44,9 @@
          "@id": "https:\/\/yutongliu96.github.io"
     },
     "articleSection" : "posts",
-    "name" : "Joke Generator",
-    "headline" : "Joke Generator",
-    "description" : "The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.\nBasic idea is inspired by the neural machine translation, which can translate a sequence to another with different length.\nMy model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence.",
+    "name" : "Cancun Trip",
+    "headline" : "Cancun Trip",
+    "description" : "携带物品: 护照I20，现金(美元和比索)，防晒，拖鞋，相机电脑耳机，驱蚊，衣物(六天时间，气温20-28，记得泳裤和帽子) 行程事项: 12.2",
     "inLanguage" : "zh-cn",
     "author" : "Yutong LIU",
     "creator" : "Yutong LIU",
@@ -54,11 +54,11 @@
     "accountablePerson" : "Yutong LIU",
     "copyrightHolder" : "Yutong LIU",
     "copyrightYear" : "2019",
-    "datePublished": "2019-12-11 16:02:36 -0500 EST",
-    "dateModified" : "2019-12-11 16:02:36 -0500 EST",
-    "url" : "https:\/\/yutongliu96.github.io\/2019\/joke_generator\/",
-    "wordCount" : "346",
-    "keywords" : [ "NLP","machine learning", "Yutong LIU\x27s Blog"]
+    "datePublished": "2019-12-15 19:23:45 -0500 EST",
+    "dateModified" : "2019-12-15 19:23:45 -0500 EST",
+    "url" : "https:\/\/yutongliu96.github.io\/2019\/cancun_trip\/",
+    "wordCount" : "278",
+    "keywords" : [ "life record", "Yutong LIU\x27s Blog"]
 }
 </script>
 
@@ -116,16 +116,16 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">Joke Generator</h1>
+        <h1 class="post-title" itemprop="name headline">Cancun Trip</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://yutongliu96.github.io" rel="author">Yutong LIU</a> with ♥ 
                 <span class="post-time">
-                on <time datetime=2019-12-11 itemprop="datePublished">December 11, 2019</time>
+                on <time datetime=2019-12-15 itemprop="datePublished">December 15, 2019</time>
                 </span>
                 in
                 <i class="iconfont icon-folder"></i>
                 <span class="post-category">
-                        <a href="https://yutongliu96.github.io/categories/natural-language-processing/"> Natural Language Processing </a>
+                        <a href="https://yutongliu96.github.io/categories/life/"> Life </a>
                         
                 </span>
         </div>
@@ -133,8 +133,6 @@
     <div class="post-content">
         
 
-        
-            
         
 
         
@@ -148,67 +146,17 @@
           
           
 
-          <p>The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.</p>
-<p>Basic idea is inspired by the neural machine translation, which can translate a sequence to another with different length.</p>
-<p><img src="/images/NLP/joke_generator/translation.png" alt="avatar"></p>
-<p>My model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence. The attention mechanism is introduced to help the machine understand which topic is more important in the generated sentence.</p>
-<p><img src="/images/NLP/joke_generator/model.jpg" alt="avatar"></p>
-<p>For training, topic words are selected from <a href="https://github.com/brendansudol/conan-jokes-data/tree/master/output">Conan talkshow</a> by POS tag predictor from nltk. We selected all the nouns from the sentence, which is better than adjective or other type words during the training. Following results are selected from tons of meaningless generation.</p>
-<table>
-<thead>
-<tr>
-<th align="center">Topic words</th>
-<th align="center">Joke</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">china restaurant</td>
-<td align="center">china has opened the first restaurant to pay for hot dog</td>
-</tr>
-<tr>
-<td align="center">dog tree</td>
-<td align="center">it s been reported that dog are now trying to build a forests in minutes</td>
-</tr>
-<tr>
-<td align="center">hilton overweight</td>
-<td align="center">paris hilton has revealed that one is bad when pregnant .</td>
-</tr>
-<tr>
-<td align="center">dish mints</td>
-<td align="center">if you re on the dish you have to be the cabbage</td>
-</tr>
-<tr>
-<td align="center">picture jersey sociopaths</td>
-<td align="center">a picture of the united kingdom of you be in new jersey .</td>
-</tr>
-<tr>
-<td align="center">marriage surgeon</td>
-<td align="center">marriage s like you take a surgery in the wrong . just take it !</td>
-</tr>
-<tr>
-<td align="center">italian conference</td>
-<td align="center">the italian press conference , you never go through .</td>
-</tr>
-<tr>
-<td align="center">cheek bieber time</td>
-<td align="center">right now , justin bieber s not worth of your time</td>
-</tr>
-<tr>
-<td align="center">slips republican</td>
-<td align="center">it s been reported that , the republican controlled the new jersey .</td>
-</tr>
-<tr>
-<td align="center">governor envilingus</td>
-<td align="center">the governor of the white house is me</td>
-</tr>
-<tr>
-<td align="center">obama chicken</td>
-<td align="center">it s been reported that michelle obama has not nominated for three out of americans think of chicken .</td>
-</tr>
-</tbody>
-</table>
-<p>A simplified version is available on my <a href="https://github.com/yutongliu96/simplified_joke_generator">github</a>, the rate of successful generation is about 10%. Considering it is different for human to make a joke by random selected topics, it is hard to evaluate it. If you have opinions or feel interested, please contact with me.</p>
+          <p><strong>携带物品:</strong></p>
+<p>护照I20，现金(美元和比索)，防晒，拖鞋，相机电脑耳机，驱蚊，衣物(六天时间，气温20-28，记得泳裤和帽子)</p>
+<p><strong>行程事项:</strong></p>
+<p>12.23-12.25<a href="https://www.booking.com/hotel/mx/four-points-cancun-by-sheraton.zh-tw.html?aid=376370;label=booking-name-XWRziJvdRHCIAT1HTvswygS267725059860%3Apl%3Ata%3Ap1%3Ap22%2C562%2C000%3Aac%3Aap1t2%3Aneg%3Afi%3Atiaud-803460390643%3Akwd-65526620%3Alp9060451%3Ali%3Adec%3Adm;sid=b9f13f16e504f2d0f2e814c1072ed571;all_sr_blocks=127565908_93778362_0_42_0%2C127565908_93778362_0_42_0;checkin=2019-12-23;checkout=2019-12-28;dest_id=-1655011;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=3;group_children=0;hapos=1;highlighted_blocks=127565908_93778362_0_42_0%2C127565908_93778362_0_42_0;hpos=1;no_rooms=2;req_adults=3;req_children=0;room1=A;room2=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1574635343;srpvid=7efa9fa7660f0061;type=total;ucfs=1&amp;#map_closed">喜来登酒店</a> , 12.26-12.28<a href="https://www.booking.com/hotel/mx/cancun-caribe-park-royal-grand.zh-tw.html?aid=376370;label=booking-name-XWRziJvdRHCIAT1HTvswygS267725059860%3Apl%3Ata%3Ap1%3Ap22%2C562%2C000%3Aac%3Aap1t2%3Aneg%3Afi%3Atiaud-803460390643%3Akwd-65526620%3Alp9060451%3Ali%3Adec%3Adm;sid=7e2699efda71372be0749f5b976a8a00;all_sr_blocks=2998013_96614455_2_85_0%2C2998013_96614455_1_85_0;checkin=2019-12-26;checkout=2019-12-28;dest_id=-1655011;dest_type=city;dist=0;from_beach_non_key_ufi_sr=1;group_adults=3;group_children=0;hapos=5;highlighted_blocks=2998013_96614455_2_85_0%2C2998013_96614455_1_85_0;hpos=5;no_rooms=2;req_adults=3;req_children=0;room1=A;room2=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1574642371;srpvid=e7ba04a1f09801df;type=total;ucfs=1&amp;#hotelTmpl">全包酒店</a>，26号checkin时间下午三点？注意安排行程</p>
+<p>12.23上午10:02底特律起飞，下午2:00到，机场大巴或者taxi去酒店(booking有服务)，安顿，吃晚饭</p>
+<p>24-27，Xplor一整天，Chicen-Itza 奇琴伊察定个tour一整天，Xe-ha可以考虑一整天，定行程加逛海滩可能需要一天，女人岛一天(有水下博物馆)</p>
+<p>28下午1:30飞机</p>
+<p><strong>攻略链接:</strong></p>
+<p><a href="https://bbs.qyer.com/thread-2916986-1.html">https://bbs.qyer.com/thread-2916986-1.html</a></p>
+<p><a href="https://zhuanlan.zhihu.com/p/40329876">https://zhuanlan.zhihu.com/p/40329876</a></p>
+<p><a href="https://www.dealmoon.com/guide/452">https://www.dealmoon.com/guide/452</a></p>
 
     </div>
 
@@ -223,7 +171,7 @@
              
             <p class="copyright-item">
                     <span>Link:</span>
-                    <a href=https://yutongliu96.github.io/2019/joke_generator/>https://yutongliu96.github.io/2019/joke_generator/</span>
+                    <a href=https://yutongliu96.github.io/2019/cancun_trip/>https://yutongliu96.github.io/2019/cancun_trip/</span>
             </p>
             
              
@@ -239,11 +187,8 @@
             <section>
             <i class="iconfont icon-tag"></i>Tag(s): 
             
-            <span class="tag"><a href="https://yutongliu96.github.io/tags/nlp/">
-                    #NLP</a></span>
-            
-            <span class="tag"><a href="https://yutongliu96.github.io/tags/machine-learning/">
-                    #machine learning</a></span>
+            <span class="tag"><a href="https://yutongliu96.github.io/tags/life-record/">
+                    #life record</a></span>
             
             </section>
         
@@ -255,10 +200,8 @@
 
     <div class="post-nav">
         
-        <a href="https://yutongliu96.github.io/2019/end_of_term/" class="prev" rel="prev" title="End_of_term"><i class="iconfont icon-left"></i>&nbsp;End_of_term</a>
+        <a href="https://yutongliu96.github.io/2019/joke_generator/" class="prev" rel="prev" title="Joke Generator"><i class="iconfont icon-left"></i>&nbsp;Joke Generator</a>
          
-        
-        <a href="https://yutongliu96.github.io/2019/cancun_trip/" class="next" rel="next" title="Cancun Trip">Cancun Trip&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
@@ -323,9 +266,8 @@
 
 
     
-     <link href="//lib.baomitu.com/lightgallery/1.6.11/css/lightgallery.min.css" rel="stylesheet">  
-      
-     <script src="/js/vendor_gallery.min.js" async="" ></script>
+    
+    <script src="/js/vendor_no_gallery.min.js" async=""></script>
     
   
 
