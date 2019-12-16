@@ -17,8 +17,8 @@
       <pubDate>Wed, 11 Dec 2019 16:02:36 -0500</pubDate>
       
       <guid>https://yutongliu96.github.io/2019/joke_generator/</guid>
-      <description>The blog is based on the project of joke generator, which aims to produce a certain joke we related the topic words we provide for the network.
-Basic idea is inspired by the neural machine translation, which can translate a sequence to another with different length.
+      <description>The blog is based on the project of joke generator, which aims to produce a certain joke related the topic words we provide for the network.
+Basic idea is inspired by the neural machine translation, which can translate a sequence to another with a different length.
 My model is optimized from the previous neural network, which considers topic words as the input language and convert them into a joke style sentence.</description>
     </item>
     
