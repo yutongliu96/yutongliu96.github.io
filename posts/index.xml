@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Yutong LIU&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 02 Jan 2020 20:05:55 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 19 Feb 2020 20:54:57 -0500</lastBuildDate>
     
 	<atom:link href="https://yutongliu96.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://yutongliu96.github.io/2020/twitter/</link>
+      <pubDate>Wed, 19 Feb 2020 20:54:57 -0500</pubDate>
+      
+      <guid>https://yutongliu96.github.io/2020/twitter/</guid>
+      <description>University Career Fair https://leetcode.com/discuss/interview-question/374846/Twitter-or-OA-2019-or-University-Career-Fair 内有python解法，O(n)复杂度 Painted House leetcode 256 DP解法, https://leetcode.com/problems/paint-house/discuss/68241/Python-DP-solution-O(n)-time-O(1)-space Min Discount类似leetcode739 https://leetcode.com/problems/daily-temperatures/discuss/136017/Elegant-Python-Solution-with-Stack Leetcode547 Twitter Social Network Union find方法, https://leetcode.com/problems/friend-circles/discuss/101349/Python-Simple-Explanation Leetcode532 hash</description>
+    </item>
     
     <item>
       <title>一些回顾和期盼</title>

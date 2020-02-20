@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JOB on Yutong LIU&#39;s Blog</title>
+    <link>https://yutongliu96.github.io/categories/job/</link>
+    <description>Recent content in JOB on Yutong LIU&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 19 Feb 2020 20:54:57 -0500</lastBuildDate>
+    
+	<atom:link href="https://yutongliu96.github.io/categories/job/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Twitter</title>
+      <link>https://yutongliu96.github.io/2020/twitter/</link>
+      <pubDate>Wed, 19 Feb 2020 20:54:57 -0500</pubDate>
+      
+      <guid>https://yutongliu96.github.io/2020/twitter/</guid>
+      <description>University Career Fair https://leetcode.com/discuss/interview-question/374846/Twitter-or-OA-2019-or-University-Career-Fair 内有python解法，O(n)复杂度 Painted House leetcode 256 DP解法, https://leetcode.com/problems/paint-house/discuss/68241/Python-DP-solution-O(n)-time-O(1)-space Min Discount类似leetcode739 https://leetcode.com/problems/daily-temperatures/discuss/136017/Elegant-Python-Solution-with-Stack Leetcode547 Twitter Social Network Union find方法, https://leetcode.com/problems/friend-circles/discuss/101349/Python-Simple-Explanation Leetcode532 hash</description>
+    </item>
+    
+  </channel>
+</rss>
